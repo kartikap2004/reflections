@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+empty repository is created with a .git file inside it
+when creating a new project in which you want to track changes
