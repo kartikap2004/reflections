@@ -1,33 +1,26 @@
-When would you want to use a remote repository rather than keeping all your work
-local?
+Q: When would you want to use a remote repository rather than keeping all your work local?
+A: When working on a team project with several other developers, so that all team members have access to my latest code changes.
+   Also, in case of using different machines, eg : I can work from the office and from my laptop at home, but I want all my changes
+   to be updated in one central location.
 
-  When working on a team project with several other developers, so that all team members have access to my latest code changes.
-  Also, in case of using different machines, eg : I can work from the office and from my laptop at home, but I want all my changes
-  to be updated in one central location.
-
-Why might you want to always pull changes manually rather than having Git
-automatically stay up-to-date with your remote repository?
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A: When working on a big project or feature that may require 1000s of lines of code,
+   we want to make sure there is a working logical piece of code change/functionality that
+   is ready to be checked into the remote repository. Keeping local repository in sync with remote
+   might also bring in changes from other users , possibly functions being changed by a different developer, 
+   that might cause compilation to fail for me. Whereas with manual pull, I can make sure that I
+   have a working piece of code, then update from remote and then compile in the end & resolve any errors if required.
   
-  When working on a big project that may require 1000s of lines of code,
-  we want to make sure there is a working logical piece of code change/functionality that
-  is ready to be checked into the remote repository. Keeping local repository in sync with remote
-  might also bring in changes from other users , possibly functions being changed by a different developer, 
-  that might cause compilation to fail for me. Whereas with manual pull, I can make sure that I
-  have a working piece of code, then update from remote and then compile in the end & resolve any errors if required.
-  
+Q: Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+A: 
 
-Describe the differences between forks, clones, and branches.  When would you
-use one instead of another?
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: 
 
+Q: How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+A: 
 
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
-
-
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
-
-
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+Q: When would you want to make changes in a separate branch rather than directly in master?  
+   What benefits does each approach have?
+A: 
 
