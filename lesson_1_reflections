@@ -1,0 +1,8 @@
+1. How might using version control make you more confident to make changes that could break something?
+
+      Being able to revert back to a previous version at any point using git checkout (commit_id)
+      However its best to always maintain the most recent commit id, as checking out to a previous version will result in loss of logs
+
+      Explore significant changes in code base
+      Withouct VCS, - you make very small iterative changes – making program incrementally better
+      With VCS, you have a large space of things to try, which can help make you a better programmer, by letting you explore deep architecture concepts.
