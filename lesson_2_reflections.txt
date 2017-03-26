@@ -1,4 +1,18 @@
-What happens when you initialize a repository? Why do you need to do it?
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: Empty repository is created with a .git file inside it
+   You need it when creating a new project in which you want to track changes
 
-empty repository is created with a .git file inside it
-when creating a new project in which you want to track changes
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: 
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: 
+
+Q: How do the diagrams help you visualize the branch structure?
+A: 
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: 
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: 
