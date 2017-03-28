@@ -12,7 +12,11 @@ A: When working on a big project or feature that may require 1000s of lines of c
    have a working piece of code, then update from remote and then compile in the end & resolve any errors if required.
   
 Q: Describe the differences between forks, clones, and branches.  When would you use one instead of another?
-A: 
+A: Forking will be used when you need to work off someone else's changes., that is to make someone else's repository available
+   under your account for modifications.
+   Cloning will be used when I need to make a copy of my own repository either locally or from GitHub to my local machine.
+   Branches are created within a single repository, local or remote. Branching will be used when making changes that need not go 
+   into the master branch, like when working in increments on a big feature.
 
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 A: 
@@ -24,3 +28,17 @@ Q: When would you want to make changes in a separate branch rather than directly
    What benefits does each approach have?
 A: 
 
+
+
+NOTES
+=======================
+Forking a repository = making a copy/clone of somebody else's repository directly on the GitHub server - eliminates the
+need to pull down the code to your local machine
+forking an existing repository can make it available under your account
+Just like cloning - only difference is that GitHub makes this clone for you on their own machines
+
+Branches dont need to involve multiple repositories, they are created on a single repository. but they need to have non-linear histories. 
+Cloning a repo from GitHub to GitHub = fork
+When you clone a repo, Git automatically sets up a remote pointing to the repo you cloned from. So there is no need to add remote repo.
+
+Add Collaborator option on GitHub : to allow anyone to push to your repository
