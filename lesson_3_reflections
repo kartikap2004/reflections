@@ -42,3 +42,5 @@ Cloning a repo from GitHub to GitHub = fork
 When you clone a repo, Git automatically sets up a remote pointing to the repo you cloned from. So there is no need to add remote repo.
 
 Add Collaborator option on GitHub : to allow anyone to push to your repository
+
+Forking is a GitHub construct only.
