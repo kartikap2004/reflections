@@ -52,6 +52,7 @@ to add files to the staging area before using "commit" command.
 git pull = git fetch, followed by git merge
 
 git log origin/master
+remote-tracking branch 'origin/master'
 
 
 
