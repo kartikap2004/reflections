@@ -45,7 +45,7 @@ Add Collaborator option on GitHub : to allow anyone to push to your repository
 
 Forking is a GitHub construct only.
 
-after pulling down changes from remote repository to local, if you start making local changes, you cannot use 
+After cloning a remote repository to local, if you start making local changes, you cannot use 
 'git commit' for these local changes unless you explicilty set these files for tracking using "git add"
 
 
