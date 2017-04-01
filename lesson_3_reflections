@@ -49,6 +49,7 @@ After cloning a remote repository to local, if you start making local changes, y
 'git commit' for these local changes unless you explicilty set these files for tracking using "git add" - IT IS IMPORTANT 
 to add files to the staging area before using "commit" command.
 
+git pull = git fetch, followed by git merge
 
 
 
