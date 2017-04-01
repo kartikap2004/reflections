@@ -19,7 +19,8 @@ A: Forking will be used when you need to work off someone else's changes., that 
    into the master branch, like when working in increments on a big feature.
 
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
-A: 
+A: To be able to collaborate with people, & get access to ongoing changes to the same shared files.
+   You can use "git fetch" to get the latest state of remote, & then "git merge" to merge your changes with other developer's changes.
 
 Q: How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 A: 
@@ -55,7 +56,8 @@ git log origin/master
 remote-tracking branch 'origin/master'
 
 
-
+fast-forward merge : when the branch you are merging into, is an ancestor of the branch you are merging from.
+Is 'a' reachable from 'b'?
 
 
 
