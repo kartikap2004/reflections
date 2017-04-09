@@ -29,7 +29,8 @@ A: Using shared files through tools such as OneDrive/DropBox or GooGle Drive. Ho
 Q: When would you want to make changes in a separate branch rather than directly in master?  
    What benefits does each approach have?
 A: To get feedback or do a review on your changes before making the change directly in the master. This can be done through 
-   pull requests.
+   pull requests. The benefit of other approach (directly changing in the master) is that it saves you time taken for  
+   merging and resolving conflicts
 
 
 
