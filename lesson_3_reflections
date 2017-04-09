@@ -60,6 +60,16 @@ remote-tracking branch 'origin/master'
 fast-forward merge : when the branch you are merging into, is an ancestor of the branch you are merging from.
 Is 'a' reachable from 'b'?
 
+Making a new branch & switching to it :
+git branch different-oil
+git checkout different-oil
+
+To share your changes :
+git add cake-recipe.txt
+git commit -m "Changed oil"
+git push origin different-oil
+
+
 
 
 
