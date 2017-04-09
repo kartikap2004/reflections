@@ -23,7 +23,8 @@ A: To be able to collaborate with people, & get access to ongoing changes to the
    You can use "git fetch" to get the latest state of remote, & then "git merge" to merge your changes with other developer's changes.
 
 Q: How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
-A: 
+A: Using shared files through tools such as OneDrive/DropBox or GooGle Drive. However it can be difficult
+   to compare th last version of the file with the current version and see exactly what was changed.
 
 Q: When would you want to make changes in a separate branch rather than directly in master?  
    What benefits does each approach have?
