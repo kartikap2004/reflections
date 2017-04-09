@@ -27,7 +27,8 @@ A:
 
 Q: When would you want to make changes in a separate branch rather than directly in master?  
    What benefits does each approach have?
-A: 
+A: To get feedback or do a review on your changes before making the change directly in the master. This can be done through 
+   pull requests.
 
 
 
