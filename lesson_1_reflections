@@ -36,7 +36,7 @@ NOTES :
 
 Repository : collection of files that are tracked by Git as a cohesive unit
 git commit : snapshot of every file in the repository at the time the commit was made.
-git log -- stat : gives statistics about which files have changed in each commit
+git log -- stat : gives statistics about which files have changed in each commit, starting from the latest.
 git clone repository-url : copy an entire repository from one computer to another (Internet access required)
 git config --global color.ui auto : to get different colors for insertions, deletions, etc. (Else you will just see black and white diffs)
 git diff first_id second_id : this is similar to windows command "diff -u first-file second-file"
