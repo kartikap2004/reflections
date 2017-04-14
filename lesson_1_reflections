@@ -22,4 +22,34 @@ A: git log will display all previous commits to the repo, with the commit IDs, m
 
 Q: How might using version control make you more confident to make changes that could break something?
 A: Since you have entire history of changes to the file, you can revert back to a specific safe state and keep working from there.
-   Possible to make really big logical changes because of this.
+   Possible to make really big logical changes because of this. You can also go back and forth between commits by looking at 
+   commit history and using git checkout. You can explore and make small changes without breaking the functionality.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+A: Because multiple files are inter-connected. One file change affects the other and so on.
+   With Google Docs , each file is a document by itself, there are no links or references to other files.
+
+
+
+NOTES :
+
+Repository : collection of files that are tracked by Git as a cohesive unit
+git commit : snapshot of every file in the repository at the time the commit was made.
+git log -- stat : gives statistics about which files have changed in each commit
+git clone repository-url : copy an entire repository from one computer to another (Internet access required)
+git config --global color.ui auto : to get different colors for insertions, deletions, etc. (Else you will just see black and white diffs)
+git diff first_id second_id
+git checkout commit_ID : temporarily changing files back to the way they were at the stage of any commit. sort of like restoring a 
+previous version. Helpful to figure out which older commit introcued a bug.
+git checkout -b new_branch_name
+
+Git Errors and Warnings:
+
+Should not be doing an octopus : Octopus is a strategy Git uses to combine many different versions of code together. 
+This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state : HEAD is what Git calls the commit you are currently on. 
+You can “detach” the HEAD by switching to a previous commit, Despite what it sounds like, it’s actually not a bad 
+thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
