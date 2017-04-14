@@ -39,7 +39,7 @@ git commit : snapshot of every file in the repository at the time the commit was
 git log -- stat : gives statistics about which files have changed in each commit, starting from the latest.
 git clone repository-url : copy an entire repository from one computer to another (Internet access required)
 git config --global color.ui auto : to get different colors for insertions, deletions, etc. (Else you will just see black and white diffs)
-git diff first_id second_id : this is similar to windows command "diff -u first-file second-file"
+git diff OLD_CommitID New_CommitID : this is similar to windows command "diff -u first-file second-file"
 git checkout commit_ID : temporarily changing files back to the way they were at the stage of any commit. sort of like restoring a 
 previous version. Helpful to figure out which older commit introcued a bug.
 git checkout -b new_branch_name
