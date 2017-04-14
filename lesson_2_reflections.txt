@@ -2,17 +2,23 @@ Q: What happens when you initialize a repository? Why do you need to do it?
 A: Empty repository is created with a .git file inside it
    You need it when creating a new project in which you want to track changes
 
+Q: How is the staging area different from the working directory and the repository? 
+A: You can add only required files to staging area from working dirctory. Only these files will be added to repository once committed.
+   You can specify the files you want to commit, and you can chose to not commit the ones that are not ready functionality wise.
+
 Q: How can you use the staging area to make sure you have one commit per logical change?
 A: 
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-A: 
+A: When working on a new feature, if the set of files you are working on is not ready as a logical change, and cannot be shared with others       yet. But you still want to commit smaller subsets of changes so as to not lose track of any of the inetrmediate work - then you can keep committing on the local branch. Then when the big change is ready you can merge it into the master branch. 
 
 Q: How do the diagrams help you visualize the branch structure?
-A: 
+A: You can see how many commits happened after making a branch and so it is easy to see differences from main branch.
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-A: 
+A: The result is a single branch with changes from both branches. We use "git merge" to do this.
+   In the diagram you can clearly see what changes on the resulting branch came from what branch originally. It is not so easy to understand this with git log, since it only shows the logs based on timestamps, and the commits displayed could be from either of the branches.
 
 Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-A: 
+A: Pros : easy and fast, especially when there are no overlaps, or changes to same pieces of code.
+   Cons : Will fail when same lines of code are changed in different commits, on different branches. You will have to merge manually to make a meaningful logical change combining both changes the best possible way. 
