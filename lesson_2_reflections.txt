@@ -7,7 +7,8 @@ A: You can add only required files to staging area from working dirctory. Only t
    You can specify the files you want to commit, and you can chose to not commit the ones that are not ready functionality wise.
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
-A: 
+A: Use "git add" to only add files that contribute to a logical change. Then use "git commit" to commit this set of file changes.
+
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A: When working on a new feature, if the set of files you are working on is not ready as a logical change, and cannot be shared with others       yet. But you still want to commit smaller subsets of changes so as to not lose track of any of the inetrmediate work - then you can keep committing on the local branch. Then when the big change is ready you can merge it into the master branch. 
