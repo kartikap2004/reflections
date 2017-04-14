@@ -9,13 +9,17 @@ A: Being able to revert back to a previous version at any point using git checko
    by letting you explore deep architecture concepts.
       
 Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-A: 
+A: For bug fixing : looking at commit history might help quickly identify when a bug got introduced and what change needs to be reverted. 
 
 Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
-A: 
+A: With manual commits, You can add a message explaining the change. And you can only commit when a logical change or functionality is 
+   complete. With auto-commits, changes can get saved too soon, when the functionality is not yet ready, and becomes avaialble for use
+   to other team members which can lead to compilation errors for them and slow down the performance of team.
 
 Q: How can you use the commands git log and git diff to view the history of files?
-A: 
+A: git log will display all previous commits to the repo, with the commit IDs, messages and timestamps.
+   git diff will only display difference between two commits specified by commit IDs.
 
 Q: How might using version control make you more confident to make changes that could break something?
-A: 
+A: Since you have entire history of changes to the file, you can revert back to a specific safe state and keep working from there.
+   Possible to make really big logical changes because of this.
