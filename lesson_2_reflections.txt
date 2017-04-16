@@ -23,3 +23,34 @@ A: The result is a single branch with changes from both branches. We use "git me
 Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 A: Pros : easy and fast, especially when there are no overlaps, or changes to same pieces of code.
    Cons : Will fail when same lines of code are changed in different commits, on different branches. You will have to merge manually to make a meaningful logical change combining both changes the best possible way. 
+
+
+NOTES :
+git init : initializes or creates a new Git repository : adds a .git directory - git doesnt create any commits at this stage
+HEAD : git's name for current commit
+git status : will show what files have changed since the last commit.
+working directory : actual files in the repository on your hard drive
+staging area  : exactly what logical changes do you want to be committed?
+- Use "git add" to add files to the staging area. 
+- git status will show above changes as "Changes to be committed"
+- Use "git commit" to commit changes in staging area
+git diff : (with no arguments) - will compare the working directory to the staging area. Any changes you've made, that you haven't
+added to the staging area yet
+git diff --staged : to compare the difference between staging area and most recent commit in repository
+git reset --hard : discards any changes in either the working directory or the staging area. Cannot get your changes back, since they were never committed.
+Git allows you to create labels for your commits. These labels are called branches
+Master : main branch in most Git repositories. Every time you create a repository Git creates a master branch for you
+If you checkout a branch then create a commit, branch label automatically updates to the new commit
+current last commit on branch = tip of the branch
+
+git branch (with no arguments) - shows you the current branches
+git branch branch_name - creates new branch with the name "branch_name"
+* next to master means that master is the branch thats currently checked out - means this the branch that will update when i make a change
+
+git checkout easy_mode : will switch to easy_mode branch, so that all changes will update the easy_mode branch
+
+
+
+
+
+
