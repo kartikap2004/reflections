@@ -36,6 +36,11 @@ A: To get feedback or do a review on your changes before making the change direc
 
 NOTES
 =======================
+git remote : to view and create remotes
+git remote add repo_name URL : repo_name is the name used within this repo to refer to the repository on GitHub. Generally called origin.
+git remote -v : verbose
+git push to from to : to - remote I want to send changes to, from - the name of the local branch I'd like to push
+
 Forking a repository = making a copy/clone of somebody else's repository directly on the GitHub server - eliminates the
 need to pull down the code to your local machine
 forking an existing repository can make it available under your account
