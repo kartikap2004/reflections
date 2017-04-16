@@ -51,6 +51,16 @@ git checkout easy_mode : will switch to easy_mode branch, so that all changes wi
 
 git branch -b new_branch_name : equivalent to using git branch, followed by git checkout
 
+When you merge 2 branches, commits are sorted by the time that they were created
+commits from 2 branches might appear as interleaved in the final branch
+
+git merge master coins // to merge coins branch into the master branch - Run this command while on the master branch
+git show : to see the diff between a commit and its parent (becaus git diff will show a lot of differences if 2 commits are from 2 different parent branches)
+git branch -d coins // to delete the branch coins, since its already merged
+git log --graph --oneline
+
+
+
 
 
 
