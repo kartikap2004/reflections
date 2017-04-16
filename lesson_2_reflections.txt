@@ -49,7 +49,7 @@ git branch branch_name - creates new branch with the name "branch_name"
 
 git checkout easy_mode : will switch to easy_mode branch, so that all changes will update the easy_mode branch
 
-
+git branch -b new_branch_name : equivalent to using git branch, followed by git checkout
 
 
 
