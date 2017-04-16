@@ -39,7 +39,8 @@ NOTES
 git remote : to view and create remotes
 git remote add repo_name URL : repo_name is the name used within this repo to refer to the repository on GitHub. Generally called origin.
 git remote -v : verbose
-git push to from to : to - remote I want to send changes to, from - the name of the local branch I'd like to push
+git push to from // to : to - remote I want to send changes to, from - the name of the local branch I'd like to push
+git pull from to
 
 Forking a repository = making a copy/clone of somebody else's repository directly on the GitHub server - eliminates the
 need to pull down the code to your local machine
@@ -75,6 +76,11 @@ To share your changes :
 git add cake-recipe.txt
 git commit -m "Changed oil"
 git push origin different-oil
+
+Eg :
+git push origin(to) my_branch(from) 
+– to push my_branch to the fork
+
 
 
 
